@@ -1,0 +1,95 @@
+.text{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #14a6bd;
+    text-shadow: teal 1.5px 2px 1px;
+    animation: slide-in 800ms;
+}
+
+@keyframes blink {
+    from {
+        transform: translate(-100%);
+    }
+    to {
+        transform: translate(0%);
+    }
+}
+
+body{
+    background-color: rgb(155, 237, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#btn{
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: #14a6bd;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: #d7ca3c;
+    color: rgb(0, 0, 0);
+}
+#label{
+    font-size: 3em;
+}
+
+@keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        
+.pulse-text {
+            font-size: 1.8rem;
+            
+            cursor: pointer;
+            transition: font-size 0.5s ease, color 0.3s ease;
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+.pulse-text:hover {
+            font-size: 4rem;
+            color: #27ae60;
+            animation: pulse 0.6s ease-in-out;
+        }
+
+.container {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: device-height;
+    border: #27ae60 4px solid;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    flex-direction: column;
+    gap: 20px;
+   transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    will-change: transform;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: #14a6bd;
+    text-shadow: teal 1.5px 2px 1px;
+
+    font-size: 2em;
+    text-align: center;
+
+    font-weight: bold;
+    line-height: 1.5;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+}

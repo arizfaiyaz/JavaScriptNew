@@ -1,0 +1,39 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D1D8BE;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+#counterContainer{
+    display: flexbox;
+    
+
+    
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #A7C1A8; /* Green */
+    color: white;
+    border: black 1px solid;
+    box-shadow: 10px 30px 100px black;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    animation: slide-in 2s  1.5s infinite alternate ease-in-out;
+}
+.button:hover{
+    background-color: #EEEFE0; /* Darker Green */
+}
+
+body{
+    background-color: #819A91;
+}
