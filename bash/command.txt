@@ -1,0 +1,91 @@
+# Basic Bash Commands Reference
+
+# File and Directory Operations
+ls          # List directory contents
+ls -la      # List detailed directory contents, including hidden files
+cd          # Change directory
+cd ..       # Move up one directory
+pwd         # Print working directory
+mkdir       # Create a new directory
+rmdir       # Remove empty directory
+rm          # Remove files
+rm -rf      # Recursively remove directory and contents (use with caution)
+cp          # Copy files or directories
+mv          # Move or rename files or directories
+touch       # Create an empty file or update timestamp
+ln          # Create links
+
+# File Viewing and Editing
+cat         # Display file contents
+less        # View file contents with pagination
+more        # Similar to less, view file contents page by page
+head        # Display first lines of a file
+tail        # Display last lines of a file
+nano        # Simple text editor
+vim         # Advanced text editor
+
+# File Permissions
+chmod       # Change file permissions
+chown       # Change file owner
+chgrp       # Change file group
+
+# Process Management
+ps          # Display running processes
+top         # Interactive process viewer
+htop        # Enhanced interactive process viewer
+kill        # Terminate processes
+killall     # Kill processes by name
+bg          # Send process to background
+fg          # Bring process to foreground
+jobs        # List background jobs
+
+# System Information
+uname       # Print system information
+df          # Show disk usage
+du          # Show directory space usage
+free        # Display memory usage
+uptime      # Show system uptime
+whoami      # Print current user
+
+# User Management
+sudo        # Execute command as superuser
+su          # Switch user
+passwd      # Change password
+useradd     # Create a new user
+userdel     # Delete a user
+usermod     # Modify user account
+
+# Network Commands
+ping        # Test network connectivity
+ifconfig    # Display network interfaces (use 'ip addr' on newer systems)
+ip          # Show/manipulate routing, network devices, interfaces
+netstat     # Network statistics
+ssh         # Secure shell remote login
+scp         # Secure copy (remote file transfer)
+wget        # Download files from the web
+curl        # Transfer data from or to a server
+
+# Search and Text Processing
+grep        # Search text using patterns
+find        # Search for files in directory hierarchy
+awk         # Pattern scanning and processing language
+sed         # Stream editor for filtering and transforming text
+sort        # Sort lines of text files
+wc          # Count lines, words, and characters
+diff        # Compare files line by line
+
+# Archiving and Compression
+tar         # Archive files
+gzip        # Compress files
+gunzip      # Uncompress gzip files
+zip         # Package and compress files
+unzip       # Extract compressed zip files
+
+# Shell Features
+echo        # Display a line of text
+history     # Command history
+alias       # Create command aliases
+source      # Execute commands from a file
+export      # Set environment variables
+which       # Locate a command
+man         # Display manual pages
